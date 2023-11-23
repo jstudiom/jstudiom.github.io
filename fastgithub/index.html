@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>下载FastGitHub</title>
+</head>
+<body>
+  <header>
+    <h1 class="title">轻松访问</h1>
+  </header>
+
+  <main>
+    <section class="sec">
+      <h2 class="fg">FastGitHub</h2>
+      <p class="textl">FastGitHub 是一个很好用的,访问github和本网站的工具</p>
+      <p class="textr">我们还没有寻找到它的作者,如有侵权,请告知,谢谢</p>
+
+      <a href="./setup.exe" class="download-button">现在下载</a>
+    </section>
+
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+  <script>
+    gsap.from(".title", { opacity: 0, duration: 1, delay: 0.1, y: -100 });
+    gsap.from(".fg", { opacity: 0, duration: 1, delay: 0.2, y: 150 });
+    gsap.from(".textl", { opacity: 0, duration: 1, delay: 0.3, x: -150 });
+    gsap.from(".textr", { opacity: 0, duration: 1, delay: 0.4, x: 150 });
+    gsap.from(".download-button", { opacity: 0, duration: 1, delay: 0.5, y: 1000 });
+    gsap.from(".sec", { opacity: 0, duration: 2.5, delay: 0 });
+  </script>
+
+</body>
+</html>

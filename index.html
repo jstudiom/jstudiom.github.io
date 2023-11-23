@@ -1,98 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>我的网站</title>
-    <style>
-      body {
-        background-color: rgba(0, 0, 0, 0.021);
-        background-image: linear-gradient(
-          to bottom,
-          rgb(255, 255, 255),
-          rgba(167, 78, 78, 0)
-        );
-        background-size: cover;
-        font-family: Arial, sans-serif;
-      }
-
-      .header {
-        text-align: center;
-        padding: 50px 0;
-        color: rgb(0, 0, 0);
-        font-size: 36px;
-        background-image: linear-gradient(
-          to bottom,
-          rgba(0, 0, 0, 1),
-          rgba(255, 255, 255, 0)
-        );
-        background-size: cover;
-      }
-      .content {
-        text-align: center;
-        margin-top: 50px;
-        color: rgb(0, 0, 0);
-        font-size: 24px;
-      }
-
-      .projects {
-        text-align: center;
-        margin-top: 100px;
-        color: rgb(0, 0, 0);
-        font-size: 24px;
-        transform: translateX(-350px);
-      }
-
-      .github {
-        text-align: center;
-        margin-top: 100px;
-        color: rgb(0, 0, 0);
-        font-size: 24px;
-        transform: translateX(350px);
-      }
-
-      .join-us {
-        text-align: center;
-        margin-top: 100px;
-        color: rgb(0, 0, 0);
-        font-size: 24px;
-        /* opacity: 0; */
-        transform: translateX(-350px);
-      }
-      a {
-        text-decoration: none;
-      }
-    </style>
+    <title>JcodeM</title>
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <div class="header">
       <h1>欢迎来到 JcodeM</h1>
     </div>
-
-    <div class="content">
-      <h2>这是 JcodeM 临时官网</h2>
-    </div>
+    <a href="./about/index.html">
+      <div class="content">
+        <h2>想知道我们是干什么的吗</h2>
+      </div>
+    </a>
     <a href="./projects/index.html">
       <div class="projects">
         <h2>项目</h2>
-        <p>这些是我们工作室的项目,<br />来看看吧</p>
+        <p>这些是我们工作室的项目<br />来看看吧</p>
       </div>
     </a>
-    <div class="github">
-      <h2>GitHub加速</h2>
-      <p>你访问这个网站一定花了不少力气<br />这会让你轻松一点</p>
+    <a href="./fastgithub/index.html">
+      <div class="github">
+        <h2>GitHub加速</h2>
+        <p>你访问这个网站一定花了不少力气<br />这会让你轻松一点</p>
+      </div>
+    </a>
+    <div class="join-us">
+      <h2>加入我们</h2>
+      <p>我们正在寻找有才华和激情的人<br />一起创造美好的事物！</p>
     </div>
 
     <div class="join-us">
-      <h2>加入我们</h2>
-      <p>我们正在寻找有才华和激情的人，<br />一起创造美好的事物！</p>
+      <h2></h2>
+      <p></p>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script>
       gsap.from(".header", { opacity: 0, duration: 1, delay: 0.1, y: 50 });
-      gsap.from(".content", { opacity: 0, duration: 1, delay: 0.1, y: 50 });
-      gsap.from(".projects", { opacity: 0, duration: 1, delay: 0.25, x: 0 });
-      gsap.from(".github", { opacity: 0, duration: 1, delay: 1, x: 50 });
-      gsap.from(".join-us", { opacity: 0, duration: 1, delay: 2, x: 50 });
+      gsap.from(".content", { opacity: 0, duration: 1, delay: 0.2, y: 1000 });
+      gsap.from(".projects", { opacity: 0, duration: 1, delay: 1, x: 150 });
+      gsap.from(".github", { opacity: 0, duration: 1, delay: 2, x: 150 });
+      gsap.from(".join-us", { opacity: 0, duration: 1, delay: 3, x: 150 });
     </script>
   </body>
 </html>

@@ -1,0 +1,65 @@
+/* 网页背景 */
+body {
+    background-color: rgba(0, 0, 0, 0.021);
+    background-image: linear-gradient(to bottom,
+            rgb(255, 255, 255),
+            #1ca800);
+            background-size: cover;
+            font-family: Arial, sans-serif;
+    }
+
+    /* 标题背景 */
+    .header {
+        text-align: center;
+        padding: 50px 0;
+        color: rgb(0, 61, 38);
+        font-size: 36px;
+        background-image: linear-gradient(to bottom,
+        #1ca800,
+            rgba(0, 0, 0, 0));
+        background-size: cover;
+    }
+
+
+    /*
+      <h2>这是 JcodeM 临时官网</h2>
+    */
+    .content {
+        text-align: center;
+        margin-top: 50px;
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+    }
+
+    /* 项目 */
+    .projects {
+        text-align: center;
+        margin-top: 100px;
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        transform: translateX(-300px);
+    }
+
+    /* fastgithub */
+    .github {
+        text-align: center;
+        margin-top: 100px;
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        transform: translateX(300px);
+    }
+
+    /* 加入我们 */
+    .join-us {
+        text-align: center;
+        margin-top: 100px;
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        /* opacity: 0; */
+        transform: translateX(-300px);
+    }
+
+    /* 所有a标签不显示下划线 */
+    a {
+        text-decoration: none;
+    }

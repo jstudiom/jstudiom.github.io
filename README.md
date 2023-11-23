@@ -1,7 +1,5 @@
-# jstudiom.github.io
-## 目前仅供上传文件
-Unsplash（https://unsplash.com/）
-Pexels（https://www.pexels.com/）
-Pixabay（https://pixabay.com/）
-Freepik（https://www.freepik.com/）
-Canva（https://www.canva.com/）
+# 简默工作室
+简默主题色#1ca800
+## 更新日志
+2023.11.19 建站 那时候是灰色的,有点太成熟了
+2023.11.23 更新下载fastgithub界面,界面换成了绿色的
